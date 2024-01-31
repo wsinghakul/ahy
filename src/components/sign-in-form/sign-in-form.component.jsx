@@ -21,10 +21,9 @@ const SignInForm = () => {
     setFormFields(defaultFormFields);
   };
 
-
   const signInWithGoogle = async () => {
-   await signInWithGooglePopup();
-     //
+    await signInWithGooglePopup();
+    //
   };
 
   const handleSubmit = async (event) => {
@@ -36,7 +35,6 @@ const SignInForm = () => {
         password
       );
 
-    
       resetFormFields();
     } catch (error) {
       switch (error.code) {
