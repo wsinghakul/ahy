@@ -20,6 +20,9 @@ export const CheckoutHeader = styled.div`
 export const headerBlock = styled.div`
   text-transform: capitalize;
   width: 23%;
+  &:last-child {
+    width: 8%;
+  }
 `;
 
 export const Total = styled.span`
@@ -28,6 +31,5 @@ export const Total = styled.span`
   font-size: 36px;
 `;
 
-// &:last-child {
-//   width: 8%;
-// }
+//
+//
