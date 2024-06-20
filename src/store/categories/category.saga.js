@@ -3,7 +3,7 @@ import { getCategoriesAndDocuments } from "../../utils/firebase/firebase.utils";
 import {
   fetchCategoriesSucess,
   fetchCategoriesFailed,
-} from "./category.action";
+} from "./category.reducer";
 import { CATEGORIES_ACTION_TYPES } from "./category.types";
 
 export function* fetchCategoriesAsync() {
